@@ -24,7 +24,7 @@ radGradient.addColorStop(1, "purple");
 
 // Create new wheel object specifying the parameters at creation time.
 let theWheel = new Winwheel({
-    'outerRadius'     : 250,        // Set outer radius so wheel fits inside the background.
+    'outerRadius'     : 200,        // Set outer radius so wheel fits inside the background.
     'innerRadius'     : 28,         // Make wheel hollow so segments don't go all way to center.
     'fillStyle'       : radGradient,
     'textFillStyle'   : 'blue',
