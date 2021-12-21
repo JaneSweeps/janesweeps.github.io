@@ -1,5 +1,6 @@
 var winner = 0;
 document.body.style.backgroundImage = "background.jpg')";
+document.body.style.zoom = 1.5;
 // Loads the tick audio sound in to an audio object.
 let audio = new Audio('tick.mp3');
 
