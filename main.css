@@ -3,11 +3,6 @@ body
     font-family: arial;
 }
 
-body {
-    zoom: 0.8; /* Other non-webkit browsers */
-    zoom: 80%; /* Webkit browsers */
-}
-
 /* Sets the background image for the wheel */
 td.the_wheel
 {
