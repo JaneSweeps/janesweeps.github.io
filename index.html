@@ -1,58 +1,24 @@
 <html>
     <head>
-        <title>Winning Wheel</title>
-        <link rel="stylesheet" href="main.css" type="text/css" />
-        <script type="text/javascript" src="Winwheel.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-        
+    <title>Javascript Login Form Validation</title>
+    <!-- Include CSS File Here -->
+        <link rel="stylesheet" href="css/style.css"/>
+    <!-- Include JS File Here -->
+        <script src="js/login.js"></script>
     </head>
-    <body style="background-image: url('background.jpg');">
-        <div ></div>
-        <div align="center" style="font-style: red;">
-                    
-            <br />
-            <table cellpadding="0" cellspacing="0" border="0" >
-            <tr>
-                <img src="janeSweeps.png" height="120">
-            </tr>
-            <tr>
-                <td>
-                <!-- <img src="WheelOfFortune.png" width="350" height="50"> -->
-                </td>
-            </tr>
-            <tr>
-                
-                
-                <td width="510" height="510" class="the_wheel" align="center" valign="center">
-                    <canvas id="canvas" width="434" height="434">
-                    </canvas>
-                </td>
-                <td>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <!-- <textarea name="chat" cols="20" rows="10" style="background-color: black; color: red; font-size: 20;"></textarea> -->
-                </td>
-
-            </tr>
-            <tr>
-                <td>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                        <img id="spin_button" src="spin_on.png" alt="Spin" onClick="startSpin();" />
-                </td>
-                 
-            </tr>
+    <body>
+        <div class="container">
+            <div class="main">
+            <h2>Javascript Login Form Validation</h2>
+            <form id="form_id" method="post" name="myform">
+                <label>User Name :</label>
+                <input type="text" name="username" id="username"/>
+                <label>Password :</label>
+                <input type="password" name="password" id="password"/>
+                <input type="button" value="Login" id="submit" onclick="validate()"/>
+            </form>
+            <span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>
+            </div>
         </div>
-                    
-        </table>
-        <script src="script.js"></script>
-        </body>
+    </body>
 </html>
