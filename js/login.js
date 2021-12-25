@@ -3,7 +3,7 @@ var attempt = 3; // Variable to count number of attempts.
 function validate(){
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    if ( username == "Formget" && password == "formget#123"){
+    if ( username == "a" && password == "a"){
         window.location = "game.html"; // Redirecting to other page.
         return false;
     }
