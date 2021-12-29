@@ -173,7 +173,7 @@ function end(indicatedSegment)
 
     drawHand();
 
-    setTimeout(function() { alertWin(indicatedSegment); }, 9000);
+    setTimeout(function() { alertWin(indicatedSegment); }, 5000);
 
     
 }
@@ -209,4 +209,7 @@ function alertWin(indicatedSegment)
     document.getElementById('spin_button').src = "spin_on.png";
     document.getElementById('spin_button').className = "clickable";
     resetWheel();
+    //window.location = "result.html"; // Redirecting to other page.
+    window.location.href="num/"+indicatedSegment.text+".png";
+
 }

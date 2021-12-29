@@ -1,8 +1,10 @@
+document.body.style.zoom = 2.4;
 var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate(){
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
+    //Dictionary or db 
     if ( username == "a" && password == "a"){
         window.location = "game.html"; // Redirecting to other page.
         return false;
