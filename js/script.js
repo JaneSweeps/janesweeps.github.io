@@ -49,7 +49,7 @@ let theWheel = new Winwheel({
     },
     'pins' :				// Turn pins on.
     {
-        'number'     : 32,
+        'number'     : 8,
         'fillStyle'  : 'gold',
         'outerRadius': 6,
     }
